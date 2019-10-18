@@ -1,5 +1,4 @@
 import XCTest
-import RLSpinner
 
 class Tests: XCTestCase {
     

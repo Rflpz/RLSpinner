@@ -7,12 +7,22 @@
 //
 
 import UIKit
+import RLSpinner
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0, execute: {
+            RLSpinner.shared.display(in: self.view)
+        })
+        
+        DispatchQueue.main.asyncAfter(deadline: .now() + 6, execute: {
+            RLSpinner.shared.hide()
+        })
+        
     }
 
     override func didReceiveMemoryWarning() {

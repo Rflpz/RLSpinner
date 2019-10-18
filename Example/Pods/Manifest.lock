@@ -1,0 +1,16 @@
+PODS:
+  - RLSpinner (0.1.7)
+
+DEPENDENCIES:
+  - RLSpinner (from `../`)
+
+EXTERNAL SOURCES:
+  RLSpinner:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RLSpinner: 48c4da202563a7746b04061363d6dddb6c28a810
+
+PODFILE CHECKSUM: 0ae9499e859984b7a8fcf697193d4d35844275b2
+
+COCOAPODS: 1.8.3

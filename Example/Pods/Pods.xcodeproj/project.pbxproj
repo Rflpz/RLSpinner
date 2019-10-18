@@ -1,0 +1,907 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		122AEED1564E2EF5F8D593A879E93F59 /* Pods-RLSpinner_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 476951848CA5356A531C82586ED9B8F9 /* Pods-RLSpinner_Example-dummy.m */; };
+		2AEAE42C94C194D2C24F444F49508F25 /* Pods-RLSpinner_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DF6A45DB8FB0498BF9C300D40AFDC507 /* Pods-RLSpinner_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B0EE48E25C404A4388A1273F82C09B6 /* RLSpinner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DD10849D35E93FF5579F53681B2D6366 /* RLSpinner-dummy.m */; };
+		389C5681D47B570387354C2FFB6DEF45 /* Pods-RLSpinner_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CAA7AB2CB7214194ED91F98A0BA1E67 /* Pods-RLSpinner_Tests-dummy.m */; };
+		4CA65C5BE522B969719E63AB245501E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 950B64BEB39CC506B65115EE95302D64 /* Foundation.framework */; };
+		4E8936CDF7871C25B86821C9256FA5E1 /* RLSpinnerConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81E7D47ABE4D66ED4B2F8A7FBE601C6 /* RLSpinnerConfiguration.swift */; };
+		594D64BD00F0DC2C4755981C569D3FCE /* RLSpinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E0D842469BC91DCAECFF9A045FD7EB /* RLSpinner.swift */; };
+		833F907F32897EED5516DC9670249A33 /* Pods-RLSpinner_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D86F99F796DCB48915F0B8848C67C1B /* Pods-RLSpinner_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B4322E1352ECFE2C13D6730E4A91EFE4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 950B64BEB39CC506B65115EE95302D64 /* Foundation.framework */; };
+		CB977FF90BB04330021D08162865910B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBCD5169B524477639A9A41855A47F99 /* QuartzCore.framework */; };
+		E6AADCBC8B9E881E6D79D5355A7F51A5 /* RLSpinner.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D2751B5D334C43CC84C2E74950C11942 /* RLSpinner.bundle */; };
+		EA0E1ECFF48AB3319DDC58019A64182A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49F545AB76C9016ECAD7D83A1129E704 /* UIKit.framework */; };
+		EFE63F777DC080288CCBAE9B77F09AF3 /* radial-progress.png in Resources */ = {isa = PBXBuildFile; fileRef = 6401938121EC53B2451B0A3313808412 /* radial-progress.png */; };
+		F0A1BA22E6DC64E6A8F45F6C6CB8FFE8 /* RLSpinner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 78A095B9362EFEF52B38767382850D7E /* RLSpinner-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F969E24F9F984C2C7E5B29F2360F21F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 950B64BEB39CC506B65115EE95302D64 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0154AABE46B01C6780130EB4DA221E68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5211476B59D64220AB4F062CF7F1906;
+			remoteInfo = RLSpinner;
+		};
+		87549B0BB4A69195377A31FD1D5AF419 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A853616419FF9F1D435AFD7FEFDFD399;
+			remoteInfo = "Pods-RLSpinner_Example";
+		};
+		F876AD0A58275FC901ACE63F9F7938E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC2E5B27019544CA86EA4B42C5248CEF;
+			remoteInfo = "RLSpinner-RLSpinner";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08F5036D5244CF89F2C4A58BA0500A69 /* Pods_RLSpinner_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RLSpinner_Example.framework; path = "Pods-RLSpinner_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FD13590E42ABA36651CF25A69E0A5A2 /* Pods-RLSpinner_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RLSpinner_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		19A5897AFEC90AF7914D5810AFE88201 /* Pods-RLSpinner_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RLSpinner_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		22C9DCB6A47CAB1F966811CF7B8E9CAC /* Pods-RLSpinner_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RLSpinner_Example-Info.plist"; sourceTree = "<group>"; };
+		438E0F1708591AB81C05163F53A82D60 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		43E0D842469BC91DCAECFF9A045FD7EB /* RLSpinner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RLSpinner.swift; path = RLSpinner/Classes/RLSpinner.swift; sourceTree = "<group>"; };
+		476951848CA5356A531C82586ED9B8F9 /* Pods-RLSpinner_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RLSpinner_Example-dummy.m"; sourceTree = "<group>"; };
+		49308C9A36FD1E033F3C11CFC3BC3E87 /* RLSpinner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RLSpinner.framework; path = RLSpinner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		49F545AB76C9016ECAD7D83A1129E704 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		4AD1019FF88E8666DE4E2C43A452404A /* Pods-RLSpinner_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RLSpinner_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4D86F99F796DCB48915F0B8848C67C1B /* Pods-RLSpinner_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RLSpinner_Example-umbrella.h"; sourceTree = "<group>"; };
+		4E36BAF230F1B3BA3E3680888D2DCA82 /* RLSpinner.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RLSpinner.modulemap; sourceTree = "<group>"; };
+		51379C61CF64CB9595F17BFAEF27DA83 /* Pods-RLSpinner_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RLSpinner_Tests-Info.plist"; sourceTree = "<group>"; };
+		5A5B533F36D82D8D9A935AE098547195 /* RLSpinner-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RLSpinner-prefix.pch"; sourceTree = "<group>"; };
+		5CAA7AB2CB7214194ED91F98A0BA1E67 /* Pods-RLSpinner_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RLSpinner_Tests-dummy.m"; sourceTree = "<group>"; };
+		6401938121EC53B2451B0A3313808412 /* radial-progress.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "radial-progress.png"; path = "RLSpinner/Assets/radial-progress.png"; sourceTree = "<group>"; };
+		6994F27D69DC6311452FA0CB2FBA8CF7 /* RLSpinner.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = RLSpinner.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6FE191ED512CEED099EB138AFADAC5FA /* ResourceBundle-RLSpinner-RLSpinner-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-RLSpinner-RLSpinner-Info.plist"; sourceTree = "<group>"; };
+		78A095B9362EFEF52B38767382850D7E /* RLSpinner-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RLSpinner-umbrella.h"; sourceTree = "<group>"; };
+		81F6533CC604DC2462E3C78A05D9C46E /* RLSpinner-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RLSpinner-Info.plist"; sourceTree = "<group>"; };
+		893ADF4919DEEDF89F10DEA53C939A0F /* RLSpinner.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RLSpinner.xcconfig; sourceTree = "<group>"; };
+		950B64BEB39CC506B65115EE95302D64 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		95490C20BB140B26E5BEEB36DF24B8B2 /* Pods-RLSpinner_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RLSpinner_Example.modulemap"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A6E128C675DFE6D2D0D3B0C8675246A1 /* Pods-RLSpinner_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RLSpinner_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		A81E7D47ABE4D66ED4B2F8A7FBE601C6 /* RLSpinnerConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RLSpinnerConfiguration.swift; path = RLSpinner/Classes/RLSpinnerConfiguration.swift; sourceTree = "<group>"; };
+		A9B339FED2668C805CD90F4C038C22BC /* Pods-RLSpinner_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RLSpinner_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		BC5A55531A8A47B8701122FF01D2647F /* Pods_RLSpinner_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RLSpinner_Tests.framework; path = "Pods-RLSpinner_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C39102DFB0845648825682D17FAB4FAB /* Pods-RLSpinner_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RLSpinner_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CBCD5169B524477639A9A41855A47F99 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		D0456C5544788E4A18C52F04C051AD25 /* Pods-RLSpinner_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RLSpinner_Example.release.xcconfig"; sourceTree = "<group>"; };
+		D2751B5D334C43CC84C2E74950C11942 /* RLSpinner.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = RLSpinner.bundle; path = "RLSpinner-RLSpinner.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D66A3A87D2218691944F542547FB05B3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		D6B4934F5AD3B643C774F0D7BBD8B928 /* Pods-RLSpinner_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RLSpinner_Tests.modulemap"; sourceTree = "<group>"; };
+		DD10849D35E93FF5579F53681B2D6366 /* RLSpinner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RLSpinner-dummy.m"; sourceTree = "<group>"; };
+		DF6A45DB8FB0498BF9C300D40AFDC507 /* Pods-RLSpinner_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RLSpinner_Tests-umbrella.h"; sourceTree = "<group>"; };
+		FCF8C8F6CEEA04AF9A6A702B906B9379 /* Pods-RLSpinner_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RLSpinner_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		FE82E23E16382DECBF0A014E6CD1E814 /* Pods-RLSpinner_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RLSpinner_Example-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F0665D9E863557D973D14E3A58BE46B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CA65C5BE522B969719E63AB245501E6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74777A519C741BD3BBDA6808733757E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95D5302BA8D758044C8C3FF732432134 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4322E1352ECFE2C13D6730E4A91EFE4 /* Foundation.framework in Frameworks */,
+				CB977FF90BB04330021D08162865910B /* QuartzCore.framework in Frameworks */,
+				EA0E1ECFF48AB3319DDC58019A64182A /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B11E9C5D3685B220C8687C0E1D461736 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F969E24F9F984C2C7E5B29F2360F21F1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C18BABFF9523A33465B5A91496FF0C3D /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3115CEA08D1B59292DB1B58B1C799AC5 /* RLSpinner */ = {
+			isa = PBXGroup;
+			children = (
+				43E0D842469BC91DCAECFF9A045FD7EB /* RLSpinner.swift */,
+				A81E7D47ABE4D66ED4B2F8A7FBE601C6 /* RLSpinnerConfiguration.swift */,
+				C8807C6426198836E298A461F73F1046 /* Pod */,
+				55D5D9D5964BC8A1A0D3F59121F6D077 /* Resources */,
+				D8923EE051035A296E69FA5D41F849FA /* Support Files */,
+			);
+			name = RLSpinner;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		55D5D9D5964BC8A1A0D3F59121F6D077 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6401938121EC53B2451B0A3313808412 /* radial-progress.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		5CA1500034ABDCA416BB7B172A7300B8 /* Pods-RLSpinner_Example */ = {
+			isa = PBXGroup;
+			children = (
+				95490C20BB140B26E5BEEB36DF24B8B2 /* Pods-RLSpinner_Example.modulemap */,
+				C39102DFB0845648825682D17FAB4FAB /* Pods-RLSpinner_Example-acknowledgements.markdown */,
+				FCF8C8F6CEEA04AF9A6A702B906B9379 /* Pods-RLSpinner_Example-acknowledgements.plist */,
+				476951848CA5356A531C82586ED9B8F9 /* Pods-RLSpinner_Example-dummy.m */,
+				FE82E23E16382DECBF0A014E6CD1E814 /* Pods-RLSpinner_Example-frameworks.sh */,
+				22C9DCB6A47CAB1F966811CF7B8E9CAC /* Pods-RLSpinner_Example-Info.plist */,
+				4D86F99F796DCB48915F0B8848C67C1B /* Pods-RLSpinner_Example-umbrella.h */,
+				0FD13590E42ABA36651CF25A69E0A5A2 /* Pods-RLSpinner_Example.debug.xcconfig */,
+				D0456C5544788E4A18C52F04C051AD25 /* Pods-RLSpinner_Example.release.xcconfig */,
+			);
+			name = "Pods-RLSpinner_Example";
+			path = "Target Support Files/Pods-RLSpinner_Example";
+			sourceTree = "<group>";
+		};
+		652657A19AFBA5D3485313B109181468 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3115CEA08D1B59292DB1B58B1C799AC5 /* RLSpinner */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		A399EDBCDF4ED932C9E882D83940B968 /* Pods-RLSpinner_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D6B4934F5AD3B643C774F0D7BBD8B928 /* Pods-RLSpinner_Tests.modulemap */,
+				4AD1019FF88E8666DE4E2C43A452404A /* Pods-RLSpinner_Tests-acknowledgements.markdown */,
+				19A5897AFEC90AF7914D5810AFE88201 /* Pods-RLSpinner_Tests-acknowledgements.plist */,
+				5CAA7AB2CB7214194ED91F98A0BA1E67 /* Pods-RLSpinner_Tests-dummy.m */,
+				51379C61CF64CB9595F17BFAEF27DA83 /* Pods-RLSpinner_Tests-Info.plist */,
+				DF6A45DB8FB0498BF9C300D40AFDC507 /* Pods-RLSpinner_Tests-umbrella.h */,
+				A9B339FED2668C805CD90F4C038C22BC /* Pods-RLSpinner_Tests.debug.xcconfig */,
+				A6E128C675DFE6D2D0D3B0C8675246A1 /* Pods-RLSpinner_Tests.release.xcconfig */,
+			);
+			name = "Pods-RLSpinner_Tests";
+			path = "Target Support Files/Pods-RLSpinner_Tests";
+			sourceTree = "<group>";
+		};
+		C18BABFF9523A33465B5A91496FF0C3D /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				950B64BEB39CC506B65115EE95302D64 /* Foundation.framework */,
+				CBCD5169B524477639A9A41855A47F99 /* QuartzCore.framework */,
+				49F545AB76C9016ECAD7D83A1129E704 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C44DB1D62C8F12D872CD43908C4B27BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				08F5036D5244CF89F2C4A58BA0500A69 /* Pods_RLSpinner_Example.framework */,
+				BC5A55531A8A47B8701122FF01D2647F /* Pods_RLSpinner_Tests.framework */,
+				D2751B5D334C43CC84C2E74950C11942 /* RLSpinner.bundle */,
+				49308C9A36FD1E033F3C11CFC3BC3E87 /* RLSpinner.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C521C2AEE19E342BDF9D220A008DCB40 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5CA1500034ABDCA416BB7B172A7300B8 /* Pods-RLSpinner_Example */,
+				A399EDBCDF4ED932C9E882D83940B968 /* Pods-RLSpinner_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C8807C6426198836E298A461F73F1046 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D66A3A87D2218691944F542547FB05B3 /* LICENSE */,
+				438E0F1708591AB81C05163F53A82D60 /* README.md */,
+				6994F27D69DC6311452FA0CB2FBA8CF7 /* RLSpinner.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				652657A19AFBA5D3485313B109181468 /* Development Pods */,
+				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
+				C44DB1D62C8F12D872CD43908C4B27BF /* Products */,
+				C521C2AEE19E342BDF9D220A008DCB40 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D8923EE051035A296E69FA5D41F849FA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6FE191ED512CEED099EB138AFADAC5FA /* ResourceBundle-RLSpinner-RLSpinner-Info.plist */,
+				4E36BAF230F1B3BA3E3680888D2DCA82 /* RLSpinner.modulemap */,
+				893ADF4919DEEDF89F10DEA53C939A0F /* RLSpinner.xcconfig */,
+				DD10849D35E93FF5579F53681B2D6366 /* RLSpinner-dummy.m */,
+				81F6533CC604DC2462E3C78A05D9C46E /* RLSpinner-Info.plist */,
+				5A5B533F36D82D8D9A935AE098547195 /* RLSpinner-prefix.pch */,
+				78A095B9362EFEF52B38767382850D7E /* RLSpinner-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/RLSpinner";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4EA3900694F70590E1DA9FAA7FE51D36 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				833F907F32897EED5516DC9670249A33 /* Pods-RLSpinner_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F44258FB46798AD15F6C307388C2569 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AEAE42C94C194D2C24F444F49508F25 /* Pods-RLSpinner_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BC030198FF50283AF8E392EB7D131DA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0A1BA22E6DC64E6A8F45F6C6CB8FFE8 /* RLSpinner-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A853616419FF9F1D435AFD7FEFDFD399 /* Pods-RLSpinner_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E672FAF9300C0879BDDF1633747B7704 /* Build configuration list for PBXNativeTarget "Pods-RLSpinner_Example" */;
+			buildPhases = (
+				4EA3900694F70590E1DA9FAA7FE51D36 /* Headers */,
+				1A472F095A19BB0E88584E95418EE5D1 /* Sources */,
+				2F0665D9E863557D973D14E3A58BE46B /* Frameworks */,
+				D97C382D5ED825F2AEDA99E5B0748FF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E43C4F85B3640BB0B239E7A87D057FF3 /* PBXTargetDependency */,
+			);
+			name = "Pods-RLSpinner_Example";
+			productName = "Pods-RLSpinner_Example";
+			productReference = 08F5036D5244CF89F2C4A58BA0500A69 /* Pods_RLSpinner_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BD93F2A2E4580A789945D89F938D67A0 /* Pods-RLSpinner_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CFF697DEE296E5B1C7E187656083F6B /* Build configuration list for PBXNativeTarget "Pods-RLSpinner_Tests" */;
+			buildPhases = (
+				8F44258FB46798AD15F6C307388C2569 /* Headers */,
+				343F298C32D18C4A0856EE79D91F00BE /* Sources */,
+				B11E9C5D3685B220C8687C0E1D461736 /* Frameworks */,
+				37562AAD107E83C10D547D2245231A33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88C4C3FAF7502DF97D4F5EDA0566BB0C /* PBXTargetDependency */,
+			);
+			name = "Pods-RLSpinner_Tests";
+			productName = "Pods-RLSpinner_Tests";
+			productReference = BC5A55531A8A47B8701122FF01D2647F /* Pods_RLSpinner_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D5211476B59D64220AB4F062CF7F1906 /* RLSpinner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49CA89D18CFBD444E605055BDA33DFE1 /* Build configuration list for PBXNativeTarget "RLSpinner" */;
+			buildPhases = (
+				9BC030198FF50283AF8E392EB7D131DA /* Headers */,
+				56E707987BA8A7AF4903399E8CF658B0 /* Sources */,
+				95D5302BA8D758044C8C3FF732432134 /* Frameworks */,
+				29FDC1A6CAEB810E9E915180D11FAF1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				583FE70885CCFBA7FE190F460C112DD0 /* PBXTargetDependency */,
+			);
+			name = RLSpinner;
+			productName = RLSpinner;
+			productReference = 49308C9A36FD1E033F3C11CFC3BC3E87 /* RLSpinner.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DC2E5B27019544CA86EA4B42C5248CEF /* RLSpinner-RLSpinner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85A205C263253556BC1B6AD66BC57D50 /* Build configuration list for PBXNativeTarget "RLSpinner-RLSpinner" */;
+			buildPhases = (
+				2F51706FFC77F91794BF19979E3EA24F /* Sources */,
+				74777A519C741BD3BBDA6808733757E3 /* Frameworks */,
+				E1BEF39C310C1C49EF7DDA726617F5C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RLSpinner-RLSpinner";
+			productName = "RLSpinner-RLSpinner";
+			productReference = D2751B5D334C43CC84C2E74950C11942 /* RLSpinner.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = C44DB1D62C8F12D872CD43908C4B27BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A853616419FF9F1D435AFD7FEFDFD399 /* Pods-RLSpinner_Example */,
+				BD93F2A2E4580A789945D89F938D67A0 /* Pods-RLSpinner_Tests */,
+				D5211476B59D64220AB4F062CF7F1906 /* RLSpinner */,
+				DC2E5B27019544CA86EA4B42C5248CEF /* RLSpinner-RLSpinner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29FDC1A6CAEB810E9E915180D11FAF1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6AADCBC8B9E881E6D79D5355A7F51A5 /* RLSpinner.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37562AAD107E83C10D547D2245231A33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D97C382D5ED825F2AEDA99E5B0748FF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1BEF39C310C1C49EF7DDA726617F5C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFE63F777DC080288CCBAE9B77F09AF3 /* radial-progress.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A472F095A19BB0E88584E95418EE5D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				122AEED1564E2EF5F8D593A879E93F59 /* Pods-RLSpinner_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F51706FFC77F91794BF19979E3EA24F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		343F298C32D18C4A0856EE79D91F00BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				389C5681D47B570387354C2FFB6DEF45 /* Pods-RLSpinner_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56E707987BA8A7AF4903399E8CF658B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B0EE48E25C404A4388A1273F82C09B6 /* RLSpinner-dummy.m in Sources */,
+				594D64BD00F0DC2C4755981C569D3FCE /* RLSpinner.swift in Sources */,
+				4E8936CDF7871C25B86821C9256FA5E1 /* RLSpinnerConfiguration.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		583FE70885CCFBA7FE190F460C112DD0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "RLSpinner-RLSpinner";
+			target = DC2E5B27019544CA86EA4B42C5248CEF /* RLSpinner-RLSpinner */;
+			targetProxy = F876AD0A58275FC901ACE63F9F7938E8 /* PBXContainerItemProxy */;
+		};
+		88C4C3FAF7502DF97D4F5EDA0566BB0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-RLSpinner_Example";
+			target = A853616419FF9F1D435AFD7FEFDFD399 /* Pods-RLSpinner_Example */;
+			targetProxy = 87549B0BB4A69195377A31FD1D5AF419 /* PBXContainerItemProxy */;
+		};
+		E43C4F85B3640BB0B239E7A87D057FF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RLSpinner;
+			target = D5211476B59D64220AB4F062CF7F1906 /* RLSpinner */;
+			targetProxy = 0154AABE46B01C6780130EB4DA221E68 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		068CB891BEAFE6E52E135BD6027BE35F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 893ADF4919DEEDF89F10DEA53C939A0F /* RLSpinner.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/RLSpinner";
+				IBSC_MODULE = RLSpinner;
+				INFOPLIST_FILE = "Target Support Files/RLSpinner/ResourceBundle-RLSpinner-RLSpinner-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_NAME = RLSpinner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		1422B121EAEAEA11307496903FA623C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		2977047F1EC9FA3176C7AE86E700D5CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0456C5544788E4A18C52F04C051AD25 /* Pods-RLSpinner_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RLSpinner_Example/Pods-RLSpinner_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RLSpinner_Example/Pods-RLSpinner_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		36E76B9449D6C54ADD47A8E891001360 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FD13590E42ABA36651CF25A69E0A5A2 /* Pods-RLSpinner_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RLSpinner_Example/Pods-RLSpinner_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RLSpinner_Example/Pods-RLSpinner_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6078F3B3499409E440255D1C1352E3A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 893ADF4919DEEDF89F10DEA53C939A0F /* RLSpinner.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/RLSpinner";
+				IBSC_MODULE = RLSpinner;
+				INFOPLIST_FILE = "Target Support Files/RLSpinner/ResourceBundle-RLSpinner-RLSpinner-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_NAME = RLSpinner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		A49A32B7A8A0FA343ABBE8B35ED62175 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 893ADF4919DEEDF89F10DEA53C939A0F /* RLSpinner.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RLSpinner/RLSpinner-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RLSpinner/RLSpinner-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RLSpinner/RLSpinner.modulemap";
+				PRODUCT_MODULE_NAME = RLSpinner;
+				PRODUCT_NAME = RLSpinner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B00BFF5415548CBD9DDDA298690582CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6E128C675DFE6D2D0D3B0C8675246A1 /* Pods-RLSpinner_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RLSpinner_Tests/Pods-RLSpinner_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RLSpinner_Tests/Pods-RLSpinner_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BA15B0863A5E70C6C783AE8253E9A879 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9B339FED2668C805CD90F4C038C22BC /* Pods-RLSpinner_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RLSpinner_Tests/Pods-RLSpinner_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RLSpinner_Tests/Pods-RLSpinner_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ED7888FA6713EABBF66D26A8003AD1CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		EE2BCEB69F3D6BB43E68ED711C73151D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 893ADF4919DEEDF89F10DEA53C939A0F /* RLSpinner.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RLSpinner/RLSpinner-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RLSpinner/RLSpinner-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RLSpinner/RLSpinner.modulemap";
+				PRODUCT_MODULE_NAME = RLSpinner;
+				PRODUCT_NAME = RLSpinner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CFF697DEE296E5B1C7E187656083F6B /* Build configuration list for PBXNativeTarget "Pods-RLSpinner_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA15B0863A5E70C6C783AE8253E9A879 /* Debug */,
+				B00BFF5415548CBD9DDDA298690582CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED7888FA6713EABBF66D26A8003AD1CA /* Debug */,
+				1422B121EAEAEA11307496903FA623C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49CA89D18CFBD444E605055BDA33DFE1 /* Build configuration list for PBXNativeTarget "RLSpinner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE2BCEB69F3D6BB43E68ED711C73151D /* Debug */,
+				A49A32B7A8A0FA343ABBE8B35ED62175 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85A205C263253556BC1B6AD66BC57D50 /* Build configuration list for PBXNativeTarget "RLSpinner-RLSpinner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				068CB891BEAFE6E52E135BD6027BE35F /* Debug */,
+				6078F3B3499409E440255D1C1352E3A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E672FAF9300C0879BDDF1633747B7704 /* Build configuration list for PBXNativeTarget "Pods-RLSpinner_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36E76B9449D6C54ADD47A8E891001360 /* Debug */,
+				2977047F1EC9FA3176C7AE86E700D5CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
